@@ -22,7 +22,7 @@ Options:
 
 COMMANDS:
 
-  build -Build or rebuild services(Создавать или перестраивать службы)
+  build -- Build or rebuild services(Создавать или перестраивать службы)
   
   config      Parse, resolve and render compose file in canonical format(Разобрать, разрешить и отобразить файл compose в каноническом формате)
   
