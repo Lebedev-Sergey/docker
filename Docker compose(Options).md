@@ -2,27 +2,27 @@ Usage:  docker compose [OPTIONS] COMMAND
 
 Options:
 
-      --ansi string                Control when to print ANSI control characters ("never"|"always"|"auto") (default "auto")
+      -ansi string                Control when to print ANSI control characters ("never"|"always"|"auto") (default "auto")
       
-      --compatibility              Run compose in backward compatibility mode
+      -compatibility              Run compose in backward compatibility mode
       
-      --dry-run                    Execute command in dry run mode
+      -dry-run                    Execute command in dry run mode
       
-      --env-file stringArray       Specify an alternate environment file.
+      -env-file stringArray       Specify an alternate environment file.
       
-  -f, --file stringArray           Compose configuration files
+  -f, -file stringArray           Compose configuration files
   
-      --parallel int               Control max parallelism, -1 for unlimited (default -1)
+     -parallel int               Control max parallelism, -1 for unlimited (default -1)
       
-      --profile stringArray        Specify a profile to enable
+      -profile stringArray        Specify a profile to enable
       
-      --project-directory string   Specify an alternate working direct (default: the path of the, first specified, Compose file)
+      -project-directory string   Specify an alternate working direct (default: the path of the, first specified, Compose file)
                                    
-  -p, --project-name string        Project name
+  -p, -project-name string        Project name
 
 COMMANDS:
 
-  build -- Build or rebuild services(Создавать или перестраивать службы)
+  build - Build or rebuild services(Создавать или перестраивать службы)
   
   config      Parse, resolve and render compose file in canonical format(Разобрать, разрешить и отобразить файл compose в каноническом формате)
   
